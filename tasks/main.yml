@@ -2,4 +2,4 @@
 # tasks file for ansible-role-services
 
 - name: start rabbitmq-server
-  systemd: name=rabbitmq-server state=started
+  systemd: name=rabbitmq-server state=started enabled=yes
